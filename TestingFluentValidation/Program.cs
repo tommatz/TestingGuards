@@ -6,6 +6,8 @@ public class Person
 {
     public string FirstName { get; }
     public string LastName { get; }
+    public string AccountKey { get; }
+
     public int Age { get; }
     public string Email { get; }
 
@@ -19,7 +21,25 @@ public class Person
         //In order to presever our current setup where Ctors throw, we'd need this.
         //Seems like typical usecase is to validate after constructing an object, not in the ctor.
         var validator = new PersonValidator();
-        var result  = validator.Validate(this);
+        var result = validator.Validate(this);
+        if (!result.IsValid)
+        {
+            throw new ValidationException(result.Errors);
+        }
+    }
+
+    public Person(string firstName, string lastName, string accountKey, int age, string email)
+    {
+        FirstName = firstName;
+        LastName = lastName;
+        Age = age;
+        Email = email;
+        AccountKey = accountKey;
+
+        //In order to presever our current setup where Ctors throw, we'd need this.
+        //Seems like typical usecase is to validate after constructing an object, not in the ctor.
+        var validator = new PersonValidator();
+        var result = validator.Validate(this, options => options.IncludeRuleSets("WithAccountKey"));
         if (!result.IsValid)
         {
             throw new ValidationException(result.Errors);
@@ -36,7 +56,8 @@ class Program
         //Person personNameTooLong = new Person("JohnAReallyLongNameThatShouldNotBeHereWhyWouldYouBeNamedThis", "Doe", 30, "john.doe@example.com");
         //Person personTooOld = new Person("John", "Doe", 50, "john.doe@example.com");
         //Person malformedEmailPerson = new Person("John", "Doe", 30, "john.doe#example.com");
-
+        Person goodPersonWithAccountKey = new Person("John", "Doe", Guid.NewGuid().ToString(), 30, "john.doe@example.com");
+        Person badPersonWithNullAccountKey = new Person("John", "Doe", null, 30, "john.doe@example.com");
     }
 }
 
@@ -60,5 +81,14 @@ public class PersonValidator : AbstractValidator<Person>
 
         RuleFor(person => person.Email)
             .EmailAddress().WithMessage("Email is not valid."); //wild that this exists out of the box
+
+        RuleSet("WithAccountKey", () =>
+        {
+            RuleFor(x => x.AccountKey)
+                .NotNull().WithMessage("AccountKey cannot be null!")
+                .NotEmpty().WithMessage("AccountKey is required.")
+                .MaximumLength(40).WithMessage("AccountKey must not exceed 40 characters.");
+        });
+
     }
 }

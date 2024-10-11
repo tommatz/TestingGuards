@@ -15,3 +15,4 @@ C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8
 C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\TestingFluentValidation.pdb
 C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\TestingFluentValidation.genruntimeconfig.cache
 C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\ref\TestingFluentValidation.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\TestingFluentValidation.sourcelink.json
