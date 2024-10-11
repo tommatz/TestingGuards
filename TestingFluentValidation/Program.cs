@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
-using System;
-using System.Net.WebSockets;
+
+using TestingFluentValidation;
 
 public class Person
 {
@@ -18,14 +18,7 @@ public class Person
         Age = age;
         Email = email;
 
-        //In order to presever our current setup where Ctors throw, we'd need this.
-        //Seems like typical usecase is to validate after constructing an object, not in the ctor.
-        var validator = new PersonValidator();
-        var result = validator.Validate(this);
-        if (!result.IsValid)
-        {
-            throw new ValidationException(result.Errors);
-        }
+        ValidationWrapper.Validate(this, new PersonValidator());
     }
 
     public Person(string firstName, string lastName, string accountKey, int age, string email)
@@ -36,14 +29,7 @@ public class Person
         Email = email;
         AccountKey = accountKey;
 
-        //In order to presever our current setup where Ctors throw, we'd need this.
-        //Seems like typical usecase is to validate after constructing an object, not in the ctor.
-        var validator = new PersonValidator();
-        var result = validator.Validate(this, options => options.IncludeRuleSets("WithAccountKey"));
-        if (!result.IsValid)
-        {
-            throw new ValidationException(result.Errors);
-        }
+        ValidationWrapper.Validate(this, new PersonValidator(), "WithAccountKey");
     }
 }
 
@@ -61,7 +47,6 @@ class Program
     }
 }
 
-//Each model would need a validator. Sort of unclear to me how this would work for models with multiple constructors where some are missing parameters. Maybe itd just work, I dont know.
 public class PersonValidator : AbstractValidator<Person>
 {
     public PersonValidator()
@@ -82,7 +67,7 @@ public class PersonValidator : AbstractValidator<Person>
         RuleFor(person => person.Email)
             .EmailAddress().WithMessage("Email is not valid."); //wild that this exists out of the box
 
-        RuleSet("WithAccountKey", () =>
+        RuleSet("WithAccountKey", () => //this allows us to support 1 validator for multiple Ctors! Yay
         {
             RuleFor(x => x.AccountKey)
                 .NotNull().WithMessage("AccountKey cannot be null!")

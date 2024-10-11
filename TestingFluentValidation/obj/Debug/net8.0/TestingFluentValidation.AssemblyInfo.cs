@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestingFluentValidation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d4d6fc29b3d5723c332e45a502de7912cab1180")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83b6cd51fceff8561f2264c4999f8938fa40b21d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestingFluentValidation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestingFluentValidation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
