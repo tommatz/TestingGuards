@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TestingGuards/1.0.0": {
+        "dependencies": {
+          "CommunityToolkit.Diagnostics": "8.3.2"
+        },
+        "runtime": {
+          "TestingGuards.dll": {}
+        }
+      },
+      "CommunityToolkit.Diagnostics/8.3.2": {
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Diagnostics.dll": {
+            "assemblyVersion": "8.3.0.0",
+            "fileVersion": "8.3.2.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestingGuards/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommunityToolkit.Diagnostics/8.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YyMsBE9lT0pJg2bEDzlfEWdlk6xHExW6jr1dxC7+YUqqVmOGL5nZROpxbXQRTe5TrfIs7BvkVsGULv/hq6tGIA==",
+      "path": "communitytoolkit.diagnostics/8.3.2",
+      "hashPath": "communitytoolkit.diagnostics.8.3.2.nupkg.sha512"
+    }
+  }
+}

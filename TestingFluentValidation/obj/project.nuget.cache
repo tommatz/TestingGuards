@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "mPDf/1oXYLM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tmatz\\source\\repos\\TestingGuards\\TestingFluentValidation\\TestingFluentValidation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tmatz\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "No Authorization header detected"
+    }
+  ]
+}

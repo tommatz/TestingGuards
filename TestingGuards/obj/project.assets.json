@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CommunityToolkit.Diagnostics/8.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/CommunityToolkit.Diagnostics.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Diagnostics.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommunityToolkit.Diagnostics/8.3.2": {
+      "sha512": "YyMsBE9lT0pJg2bEDzlfEWdlk6xHExW6jr1dxC7+YUqqVmOGL5nZROpxbXQRTe5TrfIs7BvkVsGULv/hq6tGIA==",
+      "type": "package",
+      "path": "communitytoolkit.diagnostics/8.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "communitytoolkit.diagnostics.8.3.2.nupkg.sha512",
+        "communitytoolkit.diagnostics.nuspec",
+        "lib/net6.0/CommunityToolkit.Diagnostics.dll",
+        "lib/net6.0/CommunityToolkit.Diagnostics.pdb",
+        "lib/net6.0/CommunityToolkit.Diagnostics.xml",
+        "lib/net8.0/CommunityToolkit.Diagnostics.dll",
+        "lib/net8.0/CommunityToolkit.Diagnostics.pdb",
+        "lib/net8.0/CommunityToolkit.Diagnostics.xml",
+        "lib/netstandard2.0/CommunityToolkit.Diagnostics.dll",
+        "lib/netstandard2.0/CommunityToolkit.Diagnostics.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Diagnostics.xml",
+        "lib/netstandard2.1/CommunityToolkit.Diagnostics.dll",
+        "lib/netstandard2.1/CommunityToolkit.Diagnostics.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Diagnostics.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CommunityToolkit.Diagnostics >= 8.3.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tmatz\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tmatz\\source\\repos\\TestingGuards\\TestingGuards\\TestingGuards.csproj",
+      "projectName": "TestingGuards",
+      "projectPath": "C:\\Users\\tmatz\\source\\repos\\TestingGuards\\TestingGuards\\TestingGuards.csproj",
+      "packagesPath": "C:\\Users\\tmatz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tmatz\\source\\repos\\TestingGuards\\TestingGuards\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\tmatz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/HylandExperience/index.json": {},
+        "https://nuget.pkg.github.com/HylandSoftware/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "CommunityToolkit.Diagnostics": {
+            "target": "Package",
+            "version": "[8.3.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "No Authorization header detected"
+    }
+  ]
+}

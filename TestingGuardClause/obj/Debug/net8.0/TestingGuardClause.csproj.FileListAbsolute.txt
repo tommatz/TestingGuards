@@ -1,0 +1,17 @@
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\bin\Debug\net8.0\TestingGuardClause.exe
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\bin\Debug\net8.0\TestingGuardClause.deps.json
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\bin\Debug\net8.0\TestingGuardClause.runtimeconfig.json
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\bin\Debug\net8.0\TestingGuardClause.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\bin\Debug\net8.0\TestingGuardClause.pdb
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\bin\Debug\net8.0\Ardalis.GuardClauses.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\obj\Debug\net8.0\TestingGuardClause.csproj.AssemblyReference.cache
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\obj\Debug\net8.0\TestingGuardClause.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\obj\Debug\net8.0\TestingGuardClause.AssemblyInfoInputs.cache
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\obj\Debug\net8.0\TestingGuardClause.AssemblyInfo.cs
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\obj\Debug\net8.0\TestingGuardClause.csproj.CoreCompileInputs.cache
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\obj\Debug\net8.0\TestingG.1593A967.Up2Date
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\obj\Debug\net8.0\TestingGuardClause.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\obj\Debug\net8.0\refint\TestingGuardClause.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\obj\Debug\net8.0\TestingGuardClause.pdb
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\obj\Debug\net8.0\TestingGuardClause.genruntimeconfig.cache
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuardClause\obj\Debug\net8.0\ref\TestingGuardClause.dll

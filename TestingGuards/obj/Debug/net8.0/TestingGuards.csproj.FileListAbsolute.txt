@@ -1,0 +1,17 @@
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\bin\Debug\net8.0\TestingGuards.exe
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\bin\Debug\net8.0\TestingGuards.deps.json
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\bin\Debug\net8.0\TestingGuards.runtimeconfig.json
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\bin\Debug\net8.0\TestingGuards.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\bin\Debug\net8.0\TestingGuards.pdb
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\obj\Debug\net8.0\TestingGuards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\obj\Debug\net8.0\TestingGuards.AssemblyInfoInputs.cache
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\obj\Debug\net8.0\TestingGuards.AssemblyInfo.cs
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\obj\Debug\net8.0\TestingGuards.csproj.CoreCompileInputs.cache
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\obj\Debug\net8.0\TestingGuards.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\obj\Debug\net8.0\refint\TestingGuards.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\obj\Debug\net8.0\TestingGuards.pdb
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\obj\Debug\net8.0\TestingGuards.genruntimeconfig.cache
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\obj\Debug\net8.0\ref\TestingGuards.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\bin\Debug\net8.0\CommunityToolkit.Diagnostics.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\obj\Debug\net8.0\TestingGuards.csproj.AssemblyReference.cache
+C:\Users\tmatz\source\repos\TestingGuards\TestingGuards\obj\Debug\net8.0\TestingG.E7546B75.Up2Date

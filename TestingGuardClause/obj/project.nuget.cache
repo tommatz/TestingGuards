@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CImDc+gZ/4c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tmatz\\source\\repos\\TestingGuards\\TestingGuardClause\\TestingGuardClause.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tmatz\\.nuget\\packages\\ardalis.guardclauses\\5.0.0\\ardalis.guardclauses.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

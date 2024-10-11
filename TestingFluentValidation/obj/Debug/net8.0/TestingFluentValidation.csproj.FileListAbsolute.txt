@@ -1,0 +1,17 @@
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\bin\Debug\net8.0\TestingFluentValidation.exe
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\bin\Debug\net8.0\TestingFluentValidation.deps.json
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\bin\Debug\net8.0\TestingFluentValidation.runtimeconfig.json
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\bin\Debug\net8.0\TestingFluentValidation.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\bin\Debug\net8.0\TestingFluentValidation.pdb
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\TestingFluentValidation.csproj.AssemblyReference.cache
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\TestingFluentValidation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\TestingFluentValidation.AssemblyInfoInputs.cache
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\TestingFluentValidation.AssemblyInfo.cs
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\TestingFluentValidation.csproj.CoreCompileInputs.cache
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\TestingF.FF95CF03.Up2Date
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\TestingFluentValidation.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\refint\TestingFluentValidation.dll
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\TestingFluentValidation.pdb
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\TestingFluentValidation.genruntimeconfig.cache
+C:\Users\tmatz\source\repos\TestingGuards\TestingFluentValidation\obj\Debug\net8.0\ref\TestingFluentValidation.dll
