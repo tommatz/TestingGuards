@@ -57,7 +57,7 @@ class Program
         //Person personTooOld = new Person("John", "Doe", 50, "john.doe@example.com");
         //Person malformedEmailPerson = new Person("John", "Doe", 30, "john.doe#example.com");
         Person goodPersonWithAccountKey = new Person("John", "Doe", Guid.NewGuid().ToString(), 30, "john.doe@example.com");
-        Person badPersonWithNullAccountKey = new Person("John", "Doe", null, 30, "john.doe@example.com");
+        //Person badPersonWithNullAccountKey = new Person("John", "Doe", null, 30, "john.doe@example.com");
     }
 }
 
